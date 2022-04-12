@@ -1,7 +1,7 @@
 // Assignment code here
 function generatePassword () {
 
-var chars = "01234567890abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var passwordLength = 12;
 var password ="";
 for (var i = 0; i <= passwordLength; i++) {
